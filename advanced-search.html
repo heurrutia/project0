@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+        <div class="links">
+            <div><a href="index.html">Go Back</a></div>
+        </div>
+        <div class="bar">
+            <div><span class="bar-title">Advanced Search</span></div>
+        </div>
+        <div class="search">
+            <div>
+                <div>
+                    <form action="https://google.com/search">
+                        <div class="filters">
+                            <div class="title">
+                                <h4>Find pages with...</h4>
+                            </div>
+                            <div class="filter">
+                                <div><label for="all-these-words">All these words:</label></div>
+                                <div><input type="text" value="" autofocus="autofocus" id="all-these-words" name="as_q" /></div>
+                                <div class="comment">Type the important words: <span class="mono">tricolor rat terrier</span></div>
+                            </div>
+                            <div class="filter">
+                                <div><label for="this-exact-word">This exact word or phrase:</label></div>
+                                <div><input type="text" value="" id="this-exact-word" name="as_epq" /></div>
+                                <div class="comment">Put exact words in quotes: <span class="mono">"rat terrier"</span></div>
+                            </div>
+                            <div class="filter">
+                                <div><label for="any-of-these-words">Any of these words:</label></div>
+                                <div><input type="text" value="" id="any-of-these-words" name="as_oq" /></div>
+                                <div class="comment">
+                                    Type <span class="mono">OR</span> between all the words you want: <span class="mono"> miniature OR standard</span>
+                                </div>
+                            </div>
+                            <div class="filter">
+                                <div><label for="none-of-these-words">None of these words:</label></div>
+                                <div><input type="text" value="" id="none-of-these-words" name="as_eq" /></div>
+                                <div class="comment">
+                                    Put a minus sign just before words you don't want: <span class="mono"> -rodent, -"Jack Russell"</span>
+                                </div>
+                            </div>
+                            <div class="filter">
+                                <div></div>
+                                <div class="advance-submit-button">
+                                    <input type="submit" value="Advanced Search" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

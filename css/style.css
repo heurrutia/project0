@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/google-sans");
 body {
   font-family: arial, sans-serif;
   font-size: 16px;
@@ -26,6 +27,7 @@ body {
   padding-top: 8%;
 }
 .search h1 {
+  font-family: "Product Sans", sans-serif;
   text-align: center;
   display: block;
   font-size: 6em;
